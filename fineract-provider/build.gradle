@@ -289,7 +289,7 @@ tomcatRun {
     httpsPort = 8443
     stopPort = 8081
     stopKey=   'stopKey'
-    enableSSL = true
+    enableSSL = false
     configFile = file('src/test/resources/META-INF/context.xml')
 }
 
@@ -298,7 +298,7 @@ tomcatRunWar {
     httpsPort = 8443
     stopPort = 8081
     stopKey=   'stopKey'
-    enableSSL = true
+    enableSSL = false
     keystoreFile = file('src/main/resources/keystore.jks')
     keystorePass = 'openmf'
     configFile = file('src/test/resources/META-INF/context.xml')
